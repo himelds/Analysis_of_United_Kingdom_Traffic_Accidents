@@ -84,12 +84,10 @@ The analysis follows a structured methodology comprising the following steps:
     * Slip roads show high accident abundance with speed limits ranging from 65-110 kph.
 
   ![Speed Limit vs Accident Severity](result/Speed_Limit_by_Road_Type.png "Speed Limit by Road Type")
-    * *(Include Figure 4: Speed Limit by Road Type here or provide a link to the image)*
 
 * **Impact of Speed Limit on Accident Severity:**
 
  ![Impact of Speed Limit](result/Impact_of_Speed_Limit_on_Accident_Severity.png "Impact of Speed Limit on Accident Severity")
-    * *(Include Figure 5: Impact of Speed Limit on Accident Severity here or provide a link to the image)*
 
 * **Max and Min Speed Limits by Day of the Week:**
     * The maximum speed limit consistently remains at 70 mph throughout the week, while the minimum speed fluctuates daily. 
