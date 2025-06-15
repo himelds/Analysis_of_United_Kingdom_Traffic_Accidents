@@ -74,42 +74,40 @@ The analysis follows a structured methodology comprising the following steps:
 * **Speed Limit vs. Accident Severity by Road Type:**
     * The rate of injuries increases with speed for all road types. 
     * Single and dual carriageways account for a larger portion of the data, while roundabouts and slip roads have distinct features and speed limitations. 
-    * Higher speed limits correlate with increased accident severity.  [cite_start]Accidents at 30 mph tend to be moderate, while those at 70 mph significantly increase the likelihood of severe accidents. 
+    * Higher speed limits correlate with increased accident severity. Accidents at 30 mph tend to be moderate, while those at 70 mph significantly increase the likelihood of severe accidents. 
     * Thoughtful road design, such as roundabouts and slip roads that promote lower speeds, can reduce severity even at higher speed limits.
 
+  ![Speed Limit vs Accident Severity](result/Speed_Limit_vs_Accident_Severity_by_Road_Type.png "Speed Limit vs Accident Severity by Road Type")
   
-    * *(Include Figure 3: Speed Limit vs Accident Severity by Road Type here or provide a link to the image)*
-
 * **Speed Limits by Road Type:**
-    * [cite_start]Safe driving speed zones vary: single carriageways (65-70 kph), dual carriageways (80-90 kph), and roundabouts (30-50 kph). 
-    * [cite_start]Slip roads show high accident abundance with speed limits ranging from 65-110 kph. 
+    * Safe driving speed zones vary: single carriageways (65-70 kph), dual carriageways (80-90 kph), and roundabouts (30-50 kph). 
+    * Slip roads show high accident abundance with speed limits ranging from 65-110 kph.
+
+  ![Speed Limit vs Accident Severity](result/Speed_Limit_by_Road_Type.png "Speed Limit by Road Type")
     * *(Include Figure 4: Speed Limit by Road Type here or provide a link to the image)*
 
 * **Impact of Speed Limit on Accident Severity:**
+
+ ![Impact of Speed Limit](result/Impact_of_Speed_Limit_on_Accident_Severity.png "Impact of Speed Limit on Accident Severity")
     * *(Include Figure 5: Impact of Speed Limit on Accident Severity here or provide a link to the image)*
 
 * **Max and Min Speed Limits by Day of the Week:**
-    * [cite_start]The maximum speed limit consistently remains at 70 mph throughout the week, while the minimum speed fluctuates daily. 
-    * [cite_start]Day 4 shows a noticeably elevated minimum speed, possibly due to specific road or traffic regulations. 
-    * *(Include Figure 6: Max and Min Speed Limits by Day of the Week here or provide a link to the image)*
+    * The maximum speed limit consistently remains at 70 mph throughout the week, while the minimum speed fluctuates daily. 
+    * Day 4 shows a noticeably elevated minimum speed, possibly due to specific road or traffic regulations.
+
+![Max and Min Speed Limits](result/Max_and_Min_Speed_Limits_by_Day_of_the_Week.png "Max and Min Speed Limits by Day of the Week")
 
 * **Number of Casualties by Day of the Week:**
-    * [cite_start]Day 6 experiences the highest number of casualties, with Day 1 having the lowest.  [cite_start]Other days show comparable casualty numbers, indicating a consistent accident rate. 
-    * *(Include Figure 7: Number of Casualties by Day of the Week here or provide a link to the image)*
+    * Day 6 experiences the highest number of casualties, with Day 1 having the lowest.  Other days show comparable casualty numbers, indicating a consistent accident rate.
+ 
+![Number of Casualties by Day](result/Number_of_Causalities_by_Day_of_the_Week.png "Number of Casualties by Day of the Week")
 
 ## Conclusion
 
-[cite_start]This project successfully analyzed the relationship between various predictors and the frequency and severity of traffic crashes in the UK.  [cite_start]The visualizations clearly demonstrate that factors such as weather, visibility, speed limits, and road type significantly influence accident outcomes.  [cite_start]Specifically, adverse weather and poor visibility increase the likelihood of severe injuries, and higher traffic volume tends to correlate with higher speed limits.  [cite_start]These findings highlight the critical need for effective speed regulation and the development of robust infrastructure to mitigate injuries from traffic accidents. 
+This project successfully analyzed the relationship between various predictors and the frequency and severity of traffic crashes in the UK. The visualizations clearly demonstrate that factors such as weather, visibility, speed limits, and road type significantly influence accident outcomes. Specifically, adverse weather and poor visibility increase the likelihood of severe injuries, and higher traffic volume tends to correlate with higher speed limits. These findings highlight the critical need for effective speed regulation and the development of robust infrastructure to mitigate injuries from traffic accidents. 
 
-## How to Run the Project (If Applicable)
-
-*(Add instructions here on how someone can run your code. For example, mention necessary libraries, how to run scripts, etc.)*
 
 **Prerequisites:**
 * Python 3.x
 * Jupyter Notebook (recommended for running the analysis script)
 * Required Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn` (or any other libraries you used for analysis/visualization)
-
-**Installation:**
-```bash
-pip install pandas numpy matplotlib seaborn
