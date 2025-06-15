@@ -68,7 +68,7 @@ The analysis follows a structured methodology comprising the following steps:
     * Rainy conditions with strong winds are also significant due to slick roads, which can escalate accident severity. 
     * Accidents in total darkness without street lighting appear less severe, possibly due to less traffic or increased driver caution.
 
-  ![Accident Severity by Light and Weather Conditions](result/Distribution_Accident_Severity.png "Accident Severity by Light and Weather Conditions")
+  ![Accident Severity by Light and Weather Conditions](result/Accident_Severity_by_Conditions.png "Accident Severity by Light and Weather Conditions")
     
 
 * **Speed Limit vs. Accident Severity by Road Type:**
