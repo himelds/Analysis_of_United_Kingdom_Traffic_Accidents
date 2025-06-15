@@ -16,12 +16,12 @@ The dataset used for this project was collected from the Kaggle website (Road Ac
 
 The analysis follows a structured methodology comprising the following steps:
 
-1.  [cite_start]**Data Collection:** The data was obtained from Kaggle. 
+1.  **Data Collection:** The data was obtained from Kaggle. 
 2.  **Data Cleaning:**
-    * [cite_start]Missing values in columns such as Weather Conditions, Road Surface Conditions, Light Conditions, and Accident Severity were handled by removing rows with no data. 
-    * [cite_start]Data types of all columns were checked and converted to the proper format (e.g., integer, datetime). 
-    * [cite_start]Unique values in Accident Severity, Weather Conditions, Road Surface Conditions, and Light Conditions were verified for consistency. 
-    * [cite_start]A summary of traffic accidents per year was generated, noting missing data for 2008. 
+    * Missing values in columns such as Weather Conditions, Road Surface Conditions, Light Conditions, and Accident Severity were handled by removing rows with no data. 
+    * Data types of all columns were checked and converted to the proper format (e.g., integer, datetime). 
+    * Unique values in Accident Severity, Weather Conditions, Road Surface Conditions, and Light Conditions were verified for consistency. 
+    * A summary of traffic accidents per year was generated, noting missing data for 2008. 
 
     | Year | Accident_Count |
     | :--- | :------------- |
@@ -36,8 +36,8 @@ The analysis follows a structured methodology comprising the following steps:
     | 2014 | 146322         |
 
 3.  **Preparing the Summary of Data:**
-    * [cite_start]Basic descriptive statistics were performed before visualization. 
-    * [cite_start]Summary tables based on urban/rural area and accident severity were generated using the `groupby()` function in Python. 
+    * Basic descriptive statistics were performed before visualization. 
+    * Summary tables based on urban/rural area and accident severity were generated using the `groupby()` function in Python. 
 
     **Summary of Accidents based on Area:**
     | Urban_or_Rural_Area | Accident_Count |
@@ -54,26 +54,30 @@ The analysis follows a structured methodology comprising the following steps:
     | 3                 | 1280205        |
 
 4.  **Visualization and Results:**
-    * [cite_start]MATLAB was utilized for dataset preparation to ensure accuracy and consistency. 
-    * [cite_start]Various visualization techniques were explored, including box plots, heat maps, bar charts, line graphs, and grouped bar charts, to present the data effectively. 
-    * [cite_start]The final visualizations emphasize key patterns and interrelations in the data. 
+    * Various visualization techniques were explored, including box plots, heat maps, bar charts, line graphs, and grouped bar charts, to present the data effectively. 
+    * The final visualizations emphasize key patterns and interrelations in the data. 
 
 ## Key Findings & Visualizations
 
-* [cite_start]**Distribution of Accident Severity:** The majority of accidents fall into "High" and "Medium" severity categories, with "High" severity showing the greatest disparity. 
-    * *(Include Figure 1: Distribution of Accident Severity here or provide a link to the image)*
+* **Distribution of Accident Severity:** The majority of accidents fall into "High" and "Medium" severity categories, with "High" severity showing the greatest disparity.
+
+  ![Distribution of Accident Severity](result/Distribution_Accident_Severity.png "Distribution of Accident Severity")
 
 * **Accident Severity by Light and Weather Conditions:**
-    * [cite_start]Most accidents occur during clear weather, potentially due to heavy traffic or driver overconfidence. 
-    * [cite_start]Rainy conditions with strong winds are also significant due to slick roads, which can escalate accident severity. 
-    * [cite_start]Accidents in total darkness without street lighting appear less severe, possibly due to less traffic or increased driver caution. 
-    * *(Include Figure 2: Accident Severity by Light and Weather Conditions here or provide a link to the image)*
+    * Most accidents occur during clear weather, potentially due to heavy traffic or driver overconfidence. 
+    * Rainy conditions with strong winds are also significant due to slick roads, which can escalate accident severity. 
+    * Accidents in total darkness without street lighting appear less severe, possibly due to less traffic or increased driver caution.
+
+  ![Accident Severity by Light and Weather Conditions](result/Distribution_Accident_Severity.png "Accident Severity by Light and Weather Conditions")
+    
 
 * **Speed Limit vs. Accident Severity by Road Type:**
-    * [cite_start]The rate of injuries increases with speed for all road types. 
-    * [cite_start]Single and dual carriageways account for a larger portion of the data, while roundabouts and slip roads have distinct features and speed limitations. 
-    * [cite_start]Higher speed limits correlate with increased accident severity.  [cite_start]Accidents at 30 mph tend to be moderate, while those at 70 mph significantly increase the likelihood of severe accidents. 
-    * [cite_start]Thoughtful road design, such as roundabouts and slip roads that promote lower speeds, can reduce severity even at higher speed limits. 
+    * The rate of injuries increases with speed for all road types. 
+    * Single and dual carriageways account for a larger portion of the data, while roundabouts and slip roads have distinct features and speed limitations. 
+    * Higher speed limits correlate with increased accident severity.  [cite_start]Accidents at 30 mph tend to be moderate, while those at 70 mph significantly increase the likelihood of severe accidents. 
+    * Thoughtful road design, such as roundabouts and slip roads that promote lower speeds, can reduce severity even at higher speed limits.
+
+  
     * *(Include Figure 3: Speed Limit vs Accident Severity by Road Type here or provide a link to the image)*
 
 * **Speed Limits by Road Type:**
